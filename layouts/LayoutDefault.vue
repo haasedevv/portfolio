@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="layout-default__container">
+    <app-navbar />
     <slot />
   </div>
 </template>

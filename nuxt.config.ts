@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   googleFonts: {
     families: {
-      Roboto: [300, 400, 500]
+      Poppins: [500, 700]
     }
   },
   components: [
