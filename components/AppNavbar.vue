@@ -75,6 +75,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    padding-bottom: 3.375rem;
 
     .app-navbar__dev-animation-span,
     .app-navbar__navbar-item a {
@@ -141,6 +142,8 @@
 
     .app-navbar__right-content {
       padding: 2.25rem;
+      animation: rightContentAnimation 1s ease;
+
       ul {
         display: flex;
         gap: 1rem;
@@ -156,13 +159,22 @@
             line-height: normal;
             text-decoration: none;
             transition: color 0.5s ease;
-          }
 
-          &:hover {
-            a {
+            &:hover {
               color: $color-secondary;
             }
           }
+        }
+      }
+
+      @keyframes rightContentAnimation {
+        0% {
+          opacity: 0;
+          transform: translateX(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
         }
       }
     }
