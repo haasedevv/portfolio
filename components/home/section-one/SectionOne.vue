@@ -17,6 +17,12 @@
       </app-button>
     </div>
 
+    <img
+      class="section-one__vector"
+      src="/vector.png"
+      alt="vetor do background"
+    />
+
     <section-one-nav-links />
   </div>
 </template>
@@ -49,7 +55,6 @@
           h2,
           h3 {
             color: $color-white;
-            font-family: Poppins;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -66,6 +71,7 @@
 
           h3 {
             font-size: 0.875rem;
+            color: $color-secondary;
           }
         }
       }
@@ -82,6 +88,14 @@
           opacity: 1;
         }
       }
+    }
+
+    .section-one__vector {
+      width: 100%;
+      min-height: 113px;
+      position: absolute;
+      bottom: -85px;
+      z-index: -1;
     }
   }
 </style>
