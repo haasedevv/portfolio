@@ -1,46 +1,54 @@
 <template>
   <nav class="app-navbar__navbar-options">
     <ul :class="`app-navbar__navbar-options-list --${itemsColor || 'white'} --${direction || 'row'}`">
-      <li
-        class="app-navbar__navbar-item"
-        @click="event"
-      >
-        <a href="#sobre">sobre</a>
+      <li class="app-navbar__navbar-item">
+        <a
+          href="#sobre"
+          @click="event"
+        >
+          sobre
+        </a>
       </li>
-      <li
-        class="app-navbar__navbar-item"
-        @click="event"
-      >
-        <a href="#tecnologias">tecnologias</a>
+      <li class="app-navbar__navbar-item">
+        <a
+          href="#tecnologias"
+          @click="event"
+        >
+          tecnologias
+        </a>
       </li>
-      <li
-        class="app-navbar__navbar-item"
-        @click="event"
-      >
-        <a href="#projetos">projetos</a>
+      <li class="app-navbar__navbar-item">
+        <a
+          href="#projetos"
+          @click="event"
+        >
+          projetos
+        </a>
       </li>
-      <li
-        class="app-navbar__navbar-item"
-        @click="event"
-      >
-        <a href="#experiencias">experiências</a>
+      <li class="app-navbar__navbar-item">
+        <a
+          href="#experiencias"
+          @click="event"
+        >
+          experiências
+        </a>
       </li>
-      <li
-        class="app-navbar__navbar-item"
-        @click="event"
-      >
-        <a href="#contato">contato</a>
+      <li class="app-navbar__navbar-item">
+        <a
+          href="#contato"
+          @click="event"
+        >
+          contato
+        </a>
       </li>
     </ul>
   </nav>
 </template>
 
 <script lang="ts" setup>
-  const { itemsColor, direction } = defineProps<{
-    itemsColor?: "primary" | "white";
-    direction?: "row" | "column";
-    event?: () => void;
-  }>();
+  import type { NavMenuLinksNavbarProps } from "~/@types/components";
+
+  const { itemsColor, direction, event } = defineProps<NavMenuLinksNavbarProps>();
 </script>
 
 <style lang="scss" scoped>
