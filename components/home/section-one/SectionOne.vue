@@ -82,12 +82,12 @@
           .section-one__article-github-link {
             display: flex;
             justify-content: center;
-            margin-top: 6px;
+            margin-top: 0.375rem;
 
             span {
               svg {
-                height: 18px;
-                width: 18px;
+                height: 1.125rem;
+                width: 1.125rem;
                 color: $color-secondary;
               }
             }
