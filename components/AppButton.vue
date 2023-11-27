@@ -5,9 +5,9 @@
 </template>
 
 <script lang="ts" setup>
-  const { buttonType } = defineProps<{
-    buttonType: "black" | "secondary" | "white";
-  }>();
+  import type { AppButtonProps } from "~/@types/components";
+
+  const { buttonType } = defineProps<AppButtonProps>();
 </script>
 
 <style lang="scss" scoped>
@@ -20,7 +20,7 @@
     font-weight: 500;
     line-height: normal;
     padding: 0.625rem 4.0625rem;
-    border-radius: 6px;
+    border-radius: 0.375rem;
     cursor: pointer;
     transition: all 0.6s ease;
 

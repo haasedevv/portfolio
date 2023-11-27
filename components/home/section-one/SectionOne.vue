@@ -6,7 +6,10 @@
         <header>
           <h1>Desenvolvedor Front end</h1>
           <h2>Joseph Haase</h2>
-          <h3>/haasedevv</h3>
+          <div class="section-one__article-github-link">
+            <span><IconGithub /></span>
+            <h3>/haasedevv</h3>
+          </div>
         </header>
       </article>
       <app-button
@@ -15,15 +18,22 @@
       >
         Baixar CV
       </app-button>
+      <external-links-nav
+        direction="row"
+        class="section-one__content-nav-center"
+      />
     </div>
 
     <img
       class="section-one__vector"
-      src="/vector.png"
+      src="/vector.svg"
       alt="vetor do background"
     />
 
-    <section-one-nav-links />
+    <external-links-nav
+      direction="column"
+      class="section-one__content-nav-right"
+    />
   </div>
 </template>
 
@@ -69,15 +79,34 @@
             font-size: 1.125rem;
           }
 
-          h3 {
-            font-size: 0.875rem;
-            color: $color-secondary;
+          .section-one__article-github-link {
+            display: flex;
+            justify-content: center;
+            margin-top: 6px;
+
+            span {
+              svg {
+                height: 18px;
+                width: 18px;
+                color: $color-secondary;
+              }
+            }
+
+            h3 {
+              font-size: 0.875rem;
+              color: $color-secondary;
+            }
           }
         }
       }
 
       .section-one__download-cv-button {
-        margin-top: 32px;
+        margin-top: 2rem;
+      }
+
+      .section-one__content-nav-center {
+        margin-top: 2.25rem;
+        display: none;
       }
 
       @keyframes contenteCenterAnimation {
@@ -92,10 +121,34 @@
 
     .section-one__vector {
       width: 100%;
-      min-height: 113px;
       position: absolute;
-      bottom: -85px;
+      top: 99%;
       z-index: -1;
+    }
+
+    .section-one__content-nav-right {
+      height: 100%;
+      position: absolute;
+      right: 2.25rem;
+      top: 0;
+      display: flex;
+      align-items: center;
+      animation: navLinksAnimation 1s ease;
+    }
+  }
+
+  @media (max-width: 48.75rem) {
+    .section-one__container {
+      .section-one__content {
+        padding-top: 4.375rem;
+        .section-one__content-nav-center {
+          display: flex;
+        }
+      }
+
+      .section-one__content-nav-right {
+        display: none;
+      }
     }
   }
 </style>

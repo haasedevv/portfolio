@@ -19,16 +19,22 @@
       </div>
     </div>
     <div class="app-navbar__right-content">
-      <nav class="app-navbar__navbar-options">
-        <ul>
-          <li class="app-navbar__navbar-item"><a href="#sobre">sobre</a></li>
-          <li class="app-navbar__navbar-item"><a href="#tecnologias">tecnologias</a></li>
-          <li class="app-navbar__navbar-item"><a href="#projetos">projetos</a></li>
-          <li class="app-navbar__navbar-item"><a href="#experiencias">experiências</a></li>
-          <li class="app-navbar__navbar-item"><a href="#contato">contato</a></li>
-        </ul>
-      </nav>
+      <anchor-links-menu class="app-navbar__nav-links-container" />
+
+      <div
+        class="app-navbar__hamburguer-menu"
+        @click="opennedDrawerMenu = true"
+      >
+        <div />
+        <div />
+        <div />
+      </div>
     </div>
+
+    <app-drawer-menu
+      v-if="opennedDrawerMenu"
+      @close="opennedDrawerMenu = false"
+    />
   </header>
 </template>
 
@@ -37,6 +43,8 @@
   const devAnimationFrontEnd = ref();
   const timeoutFrontEnd = ref();
   const tiemoutDeveloper = ref();
+  const opennedDrawerMenu = ref(false);
+
   const showDevelopText = () => {
     devAnimationDeveloper.value.style.display = "flex";
     devAnimationFrontEnd.value.style.display = "none";
@@ -68,14 +76,13 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "@/assets/styles/colors/_colors.scss";
+  @import "assets/styles/colors/colors";
 
   .app-navbar__container {
     background: $color-primary;
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding-bottom: 3.375rem;
 
     .app-navbar__dev-animation-span,
     .app-navbar__navbar-item a {
@@ -141,29 +148,21 @@
     }
 
     .app-navbar__right-content {
-      padding: 2.25rem;
+      padding: 2.25rem 2.25rem 5.625rem;
       animation: rightContentAnimation 1s ease;
 
-      ul {
-        display: flex;
-        gap: 1rem;
+      .app-navbar__hamburguer-menu {
+        width: fit-content;
+        display: none;
+        flex-direction: column;
+        gap: 0.375rem;
+        cursor: pointer;
 
-        .app-navbar__navbar-item {
-          transition: border-color 0.5s ease;
-
-          a {
-            padding: 0.25rem 0.375rem;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-decoration: none;
-            transition: color 0.5s ease;
-
-            &:hover {
-              color: $color-secondary;
-            }
-          }
+        & > div {
+          border-radius: 0.625rem;
+          width: 2.75rem;
+          height: 0.375rem;
+          background: #fff;
         }
       }
 
@@ -176,6 +175,38 @@
           opacity: 1;
           transform: translateX(0);
         }
+      }
+    }
+  }
+
+  @media (max-width: 64rem) {
+    .app-navbar__container {
+      .app-navbar__right-content {
+        .app-navbar__hamburguer-menu {
+          display: flex;
+        }
+
+        .app-navbar__nav-links-container {
+          display: none;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 32.5rem) {
+    .app-navbar__container {
+      .app-navbar__left-content {
+        .app-navbar__dev-animation-developer,
+        .app-navbar__dev-animation-front-end {
+          left: 1rem;
+          .app-navbar__dev-animation-span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      .app-navbar__right-content {
+        padding: 2.25rem 1rem 2.4375rem 2.25rem;
       }
     }
   }
