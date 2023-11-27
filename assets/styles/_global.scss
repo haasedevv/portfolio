@@ -11,5 +11,6 @@ html, body {
 body {
   margin: 0 auto;
   max-width: 120rem;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
