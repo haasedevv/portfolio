@@ -1,6 +1,6 @@
 <template>
   <nav class="section-one__nav-links">
-    <ul>
+    <ul :class="`--${direction || 'column'}`">
       <li>
         <a
           href="https://github.com/HJosephDEV?tab=repositories"
@@ -26,22 +26,23 @@
   </nav>
 </template>
 
+<script lang="ts" setup>
+  import type { SectionOneNavLinksProps } from "~/@types/components";
+
+  const { direction } = defineProps<SectionOneNavLinksProps>();
+</script>
+
 <style lang="scss" scoped>
   @import "@/assets/styles/colors/colors";
 
   .section-one__nav-links {
-    height: 100%;
-    position: absolute;
-    right: 2.25rem;
-    top: 0;
-    display: flex;
-    align-items: center;
-    animation: navLinksAnimation 1s ease;
-
     ul {
       display: flex;
-      flex-direction: column;
       gap: 1rem;
+
+      &.--column {
+        flex-direction: column;
+      }
 
       li {
         svg {
