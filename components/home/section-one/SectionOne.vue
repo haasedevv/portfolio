@@ -24,15 +24,21 @@
       />
     </div>
 
-    <img
-      class="section-one__vector"
-      src="/vector.svg"
-      alt="vetor do background"
-    />
-
     <external-links-nav
       direction="column"
       class="section-one__content-nav-right"
+    />
+
+    <img
+      class="section-one__vector --desktop-vector"
+      src="/vectorDesktop.svg"
+      alt="vetor do background"
+    />
+
+    <img
+      class="section-one__vector --mobile-vector"
+      src="/vectorMobile.svg"
+      alt="vetor do background"
     />
   </div>
 </template>
@@ -122,8 +128,16 @@
     .section-one__vector {
       width: 100%;
       position: absolute;
-      top: 99%;
+      top: 100%;
       z-index: -1;
+
+      &.--desktop-vector {
+        display: initial;
+      }
+
+      &.--mobile-vector {
+        display: none;
+      }
     }
 
     .section-one__content-nav-right {
@@ -141,6 +155,7 @@
     .section-one__container {
       .section-one__content {
         padding-top: 4.375rem;
+
         .section-one__content-nav-center {
           display: flex;
         }
@@ -148,6 +163,16 @@
 
       .section-one__content-nav-right {
         display: none;
+      }
+
+      .section-one__vector {
+        &.--desktop-vector {
+          display: none;
+        }
+
+        &.--mobile-vector {
+          display: initial;
+        }
       }
     }
   }
