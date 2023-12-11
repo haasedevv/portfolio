@@ -52,6 +52,7 @@
 
   .section-one__container {
     background: $color-primary;
+    margin-top: -0.0625rem;
     position: relative;
 
     .section-one__content {
@@ -130,6 +131,7 @@
       position: absolute;
       top: 100%;
       z-index: -1;
+      margin-top: -0.0625rem;
 
       &.--desktop-vector {
         display: initial;
