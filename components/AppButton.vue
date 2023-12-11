@@ -14,7 +14,6 @@
   @import "@/assets/styles/colors/colors";
 
   .app-button__container {
-    border: 0;
     font-size: 0.875rem;
     font-style: normal;
     font-weight: 500;
@@ -23,6 +22,7 @@
     border-radius: 0.375rem;
     cursor: pointer;
     transition: all 0.6s ease;
+    border: 3px solid transparent;
 
     &.--button-black-color {
       background: $color-black;
@@ -31,6 +31,7 @@
       &:hover {
         background: $color-white;
         color: $color-black;
+        border-color: $color-black;
       }
     }
 
