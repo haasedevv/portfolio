@@ -1,6 +1,7 @@
 <template>
   <main class="home-page__container">
     <section-one />
+    <section-two />
   </main>
 </template>
 
@@ -12,4 +13,16 @@
 
 <style lang="scss" scoped>
   @import "@/assets/styles/colors/_colors.scss";
+
+  .home-page__container {
+    display: flex;
+    flex-direction: column;
+    gap: 7.75rem;
+  }
+
+  @media (max-width: 768px) {
+    .home-page__container {
+      gap: 6.25rem;
+    }
+  }
 </style>

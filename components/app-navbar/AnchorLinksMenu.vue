@@ -4,7 +4,7 @@
       <li class="app-navbar__navbar-item">
         <a
           href="#sobre"
-          @click="event"
+          @click="moveToAnchor('#sobre')"
         >
           sobre
         </a>
@@ -12,7 +12,7 @@
       <li class="app-navbar__navbar-item">
         <a
           href="#tecnologias"
-          @click="event"
+          @click="moveToAnchor('#tecnologias')"
         >
           tecnologias
         </a>
@@ -20,7 +20,7 @@
       <li class="app-navbar__navbar-item">
         <a
           href="#projetos"
-          @click="event"
+          @click="moveToAnchor('#projetos')"
         >
           projetos
         </a>
@@ -28,7 +28,7 @@
       <li class="app-navbar__navbar-item">
         <a
           href="#experiencias"
-          @click="event"
+          @click="moveToAnchor('#experiencias')"
         >
           experiências
         </a>
@@ -36,7 +36,7 @@
       <li class="app-navbar__navbar-item">
         <a
           href="#contato"
-          @click="event"
+          @click="moveToAnchor('#contato')"
         >
           contato
         </a>
@@ -49,6 +49,12 @@
   import type { NavMenuLinksNavbarProps } from "~/@types/components";
 
   const { itemsColor, direction, event } = defineProps<NavMenuLinksNavbarProps>();
+  const moveToAnchor = (id: string) => {
+    const element = document.getElementById(id);
+    element?.scrollIntoView(true);
+
+    !!event && event();
+  };
 </script>
 
 <style lang="scss" scoped>
