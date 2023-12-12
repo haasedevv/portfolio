@@ -2,6 +2,7 @@
   <main class="home-page__container">
     <section-one />
     <section-two />
+    <section-three />
   </main>
 </template>
 
