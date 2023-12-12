@@ -11,3 +11,7 @@ export type NavMenuLinksNavbarProps = {
   direction?: "row" | "column";
   event?: () => void;
 };
+
+export type StackiconComponentProps = {
+  tecName: string;
+};
