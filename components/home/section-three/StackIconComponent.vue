@@ -31,7 +31,6 @@
     justify-content: space-between;
     position: relative;
     height: 5.625rem;
-    width: 100%;
 
     .stack-icon-component__name-container {
       width: 100%;
@@ -47,6 +46,18 @@
         bottom: 0;
         left: 50%;
         transform: translateX(-50%);
+      }
+    }
+  }
+
+  @media (max-width: 35.75rem) {
+    .stack-icon-component__container {
+      height: 4rem;
+
+      .stack-icon-component__name-container {
+        .stack-icon-component__name {
+          font-size: 0.5rem;
+        }
       }
     }
   }
