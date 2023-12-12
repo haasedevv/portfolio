@@ -152,18 +152,72 @@
 <style lang="scss">
   @import "@/assets/styles/colors/_colors.scss";
 
-  .section-three__container {
-    .stack-icon-component__container {
-      &:nth-child(1),
-      &:nth-child(2),
-      &:nth-child(3),
-      &:nth-child(4),
-      &:nth-child(5),
-      &:nth-child(6),
-      &:nth-child(7) {
-        .stack-icon-component__name-container {
-          .stack-icon-component__name {
-            color: $color-white;
+  @media (min-width: 48rem) {
+    .section-three__container {
+      .stack-icon-component__container {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7) {
+          .stack-icon-component__name-container {
+            .stack-icon-component__name {
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 48rem) and (min-width: 26.25rem) {
+    .section-three__container {
+      .stack-icon-component__container {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5) {
+          .stack-icon-component__name-container {
+            .stack-icon-component__name {
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 26.25rem) and (min-width: 21.875rem) {
+    .section-three__container {
+      .stack-icon-component__container {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          .stack-icon-component__name-container {
+            .stack-icon-component__name {
+              color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 21.875rem) {
+    .section-three__container {
+      .stack-icon-component__container {
+        &:nth-child(1),
+        &:nth-child(2),
+        &:nth-child(3),
+        &:nth-child(4) {
+          .stack-icon-component__name-container {
+            .stack-icon-component__name {
+              color: $color-white;
+            }
           }
         }
       }
@@ -171,7 +225,7 @@
   }
 </style>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import "@/assets/styles/colors/_colors.scss";
 
   .section-three__container {
@@ -204,13 +258,88 @@
       .section-three__article-tec-section {
         display: grid;
         gap: 1.5rem 2.25rem;
-        grid-template-columns: repeat(7, 65px);
-        width: 42.125rem;
+        grid-template-columns: repeat(7, 4.0625rem);
+        width: min-content;
         margin: 0 auto;
 
         .section-three__tec-icon {
-          height: 65px;
-          width: 65px;
+          height: 4.0625rem;
+          width: 4.0625rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 48rem) {
+    .section-three__container {
+      .section-three__article-tec {
+        .section-three__article-tec-section {
+          grid-template-columns: repeat(5, 4.0625rem);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 35.75rem) {
+    .section-three__container {
+      position: relative;
+
+      .section-three__vector {
+        height: 12.625rem;
+      }
+
+      .section-three__article-tec {
+        width: 100%;
+
+        .section-three__article-tec-header {
+          margin: 2.8125rem 0 2.8125rem;
+
+          .section-three__title {
+            font-size: 1.5rem;
+          }
+        }
+
+        .section-three__article-tec-section {
+          display: grid;
+          gap: 1.5rem 2.25rem;
+          grid-template-columns: repeat(5, 2.8125rem);
+          width: min-content;
+          margin: 0 auto;
+
+          .section-three__tec-icon {
+            height: 2.8125rem;
+            width: 2.8125rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 26.25rem) {
+    .section-three__container {
+      .section-three__article-tec {
+        .section-three__article-tec-section {
+          grid-template-columns: repeat(4, 2.8125rem);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 21.5625rem) {
+    .section-three__container {
+      .section-three__article-tec {
+        .section-three__article-tec-section {
+          grid-template-columns: repeat(4, 2.8125rem);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 21.875rem) {
+    .section-three__container {
+      .section-three__article-tec {
+        .section-three__article-tec-section {
+          grid-template-columns: repeat(3, 2.8125rem);
         }
       }
     }
