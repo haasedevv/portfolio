@@ -1,5 +1,5 @@
 <template>
-  <button :class="`app-button__container --button-${buttonType || 'black'}-color`">
+  <button :class="[`app-button__container --button-${buttonType || 'black'}-color`, { '--full': full }]">
     <slot />
   </button>
 </template>
@@ -7,7 +7,7 @@
 <script lang="ts" setup>
   import type { AppButtonProps } from "~/@types/components";
 
-  const { buttonType } = defineProps<AppButtonProps>();
+  const { buttonType, full } = defineProps<AppButtonProps>();
 </script>
 
 <style lang="scss" scoped>
@@ -23,6 +23,13 @@
     cursor: pointer;
     transition: all 0.6s ease;
     border: 3px solid transparent;
+
+    &.--full {
+      display: flex;
+      justify-content: center;
+      padding: 0.625rem 1.5rem;
+      width: 100%;
+    }
 
     &.--button-black-color {
       background: $color-black;
@@ -42,6 +49,7 @@
       &:hover {
         background: $color-white;
         color: $color-secondary;
+        border-color: $color-secondary;
       }
     }
 

@@ -28,31 +28,31 @@
 </template>
 
 <script lang="ts" setup>
-  import ZustandIcon from "public/ZustandIcon.svg?component";
-  import AzureIcon from "public/AzureIcon.svg?component";
-  import DockerIcon from "public/DockerIcon.svg?component";
-  import FigmaIcon from "public/FigmaIcon.svg?component";
-  import CssIcon from "public/CssIcon.svg?component";
-  import GitIcon from "public/GitIcon.svg?component";
-  import HtmlIcon from "public/HtmlIcon.svg?component";
-  import JestIcon from "public/JestIcon.svg?component";
-  import MongoIcon from "public/MongoIcon.svg?component";
-  import NestIcon from "public/NestIcon.svg?component";
-  import NextIcon from "public/NextIcon.svg?component";
-  import NodeIcon from "public/NodeIcon.svg?component";
-  import NuxtIcon from "public/NuxtIcon.svg?component";
-  import PiniaIcon from "public/PiniaIcon.svg?component";
-  import PostgresqlIcon from "public/PostgresqlIcon.svg?component";
-  import ReactIcon from "public/ReactIcon.svg?component";
-  import ReduxIcon from "public/ReduxIcon.svg?component";
-  import SassIcon from "public/SassIcon.svg?component";
-  import StyledComponentsIcon from "public/StyledComponentsIcon.svg?component";
-  import TailwindcssIcon from "public/TailwindcssIcon.svg?component";
-  import TypescriptIcon from "public/TypescriptIcon.svg?component";
-  import VueIcon from "public/VueIcon.svg?component";
-  import VuexIcon from "public/VuexIcon.svg?component";
+  import ZustandIcon from "@/assets/icons/ZustandIcon.svg?component";
+  import AzureIcon from "@/assets/icons/AzureIcon.svg?component";
+  import DockerIcon from "@/assets/icons/DockerIcon.svg?component";
+  import FigmaIcon from "@/assets/icons/FigmaIcon.svg?component";
+  import CssIcon from "@/assets/icons/CssIcon.svg?component";
+  import GitIcon from "@/assets/icons/GitIcon.svg?component";
+  import HtmlIcon from "@/assets/icons/HtmlIcon.svg?component";
+  import JestIcon from "@/assets/icons/JestIcon.svg?component";
+  import MongoIcon from "@/assets/icons/MongoIcon.svg?component";
+  import NestIcon from "@/assets/icons/NestIcon.svg?component";
+  import NextIcon from "@/assets/icons/NextIcon.svg?component";
+  import NodeIcon from "@/assets/icons/NodeIcon.svg?component";
+  import NuxtIcon from "@/assets/icons/NuxtIcon.svg?component";
+  import PiniaIcon from "@/assets/icons/PiniaIcon.svg?component";
+  import PostgresqlIcon from "@/assets/icons/PostgresqlIcon.svg?component";
+  import ReactIcon from "@/assets/icons/ReactIcon.svg?component";
+  import ReduxIcon from "@/assets/icons/ReduxIcon.svg?component";
+  import SassIcon from "@/assets/icons/SassIcon.svg?component";
+  import StyledComponentsIcon from "@/assets/icons/StyledComponentsIcon.svg?component";
+  import TailwindcssIcon from "@/assets/icons/TailwindcssIcon.svg?component";
+  import TypescriptIcon from "@/assets/icons/TypescriptIcon.svg?component";
+  import VueIcon from "@/assets/icons/VueIcon.svg?component";
+  import VuexIcon from "@/assets/icons/VuexIcon.svg?component";
 
-  const iconsList = ref([
+  const iconsList = shallowRef([
     {
       icon: HtmlIcon,
       name: "HTML"

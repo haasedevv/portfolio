@@ -44,7 +44,7 @@
 </template>
 
 <script lang="ts" setup>
-  import MeIcon from "public/me.svg?component";
+  import MeIcon from "@/assets/images/svgs/me.svg?component";
 </script>
 
 <style lang="scss" scoped>
