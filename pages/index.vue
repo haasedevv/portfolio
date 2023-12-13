@@ -3,6 +3,7 @@
     <section-one />
     <section-two />
     <section-three />
+    <section-four />
   </main>
 </template>
 
