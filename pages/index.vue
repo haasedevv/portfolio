@@ -4,6 +4,7 @@
     <section-two />
     <section-three />
     <section-four />
+    <section-five />
   </main>
 </template>
 
