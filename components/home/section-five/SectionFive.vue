@@ -80,4 +80,13 @@
       }
     }
   }
+
+  @media (max-width: 36.875rem) {
+    .section-five__container {
+      .section-five__title {
+        font-size: 1.5rem;
+        margin-bottom: 5rem;
+      }
+    }
+  }
 </style>

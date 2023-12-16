@@ -104,7 +104,7 @@
     }
   }
 
-  @media (max-width: 35.125rem) {
+  @media (max-width: 36.875rem) {
     .section-four__project-card {
       .section-four__article-helper {
         margin-top: 1.5rem;

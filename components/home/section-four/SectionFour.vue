@@ -60,7 +60,7 @@
     }
   }
 
-  @media (max-width: 35.125rem) {
+  @media (max-width: 36.875rem) {
     .section-four__container {
       .section-four__title {
         font-size: 1.5rem;
