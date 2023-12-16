@@ -74,13 +74,4 @@
       }
     }
   }
-
-  @media (max-width: 26.25rem) {
-    .section-four__container {
-      .section-four__title {
-        font-size: 1.125rem;
-        margin-bottom: 4.5rem;
-      }
-    }
-  }
 </style>
