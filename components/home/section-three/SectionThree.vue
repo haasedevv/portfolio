@@ -280,7 +280,7 @@
     }
   }
 
-  @media (max-width: 35.75rem) {
+  @media (max-width: 36.875rem) {
     .section-three__container {
       position: relative;
 

@@ -50,7 +50,7 @@
     }
   }
 
-  @media (max-width: 35.75rem) {
+  @media (max-width: 36.875rem) {
     .stack-icon-component__container {
       height: 4rem;
 

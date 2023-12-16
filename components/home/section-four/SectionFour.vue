@@ -43,6 +43,7 @@
 
 <style lang="scss" scoped>
   .section-four__container {
+    padding: 0 2.25rem;
     .section-four__title {
       color: #403886;
       font-size: 2.25rem;
@@ -60,8 +61,9 @@
     }
   }
 
-  @media (max-width: 35.125rem) {
+  @media (max-width: 36.875rem) {
     .section-four__container {
+      padding: 0 1rem;
       .section-four__title {
         font-size: 1.5rem;
         margin-bottom: 5rem;
@@ -69,15 +71,6 @@
 
       .section-four__projects {
         gap: 6.25rem;
-      }
-    }
-  }
-
-  @media (max-width: 26.25rem) {
-    .section-four__container {
-      .section-four__title {
-        font-size: 1.125rem;
-        margin-bottom: 4.5rem;
       }
     }
   }

@@ -55,11 +55,10 @@
 <style lang="scss" scoped>
   .section-four__project-card {
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 36px;
 
     .section-four__project-card-photo {
       max-width: 100%;
@@ -67,7 +66,7 @@
     }
 
     .section-four__article-helper {
-      margin-top: 48px;
+      margin-top: 3rem;
       .section-four__article-header {
         width: 100%;
 
@@ -94,7 +93,7 @@
       .section-four__article-buttons-container {
         width: 100%;
         display: flex;
-        gap: 16px;
+        gap: 1rem;
 
         a {
           width: 100%;
@@ -104,7 +103,7 @@
     }
   }
 
-  @media (max-width: 35.125rem) {
+  @media (max-width: 36.875rem) {
     .section-four__project-card {
       .section-four__article-helper {
         margin-top: 1.5rem;
