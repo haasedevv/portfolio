@@ -44,7 +44,7 @@
 
       .experience-card__company-name {
         color: $color-white;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin-bottom: 0.375rem;
       }
 
@@ -52,6 +52,10 @@
       .experience-card__experience-time {
         color: $color-secondary;
         font-size: 0.75rem;
+      }
+
+      .experience-card__experience-time {
+        margin-top: 0.125rem;
       }
     }
 

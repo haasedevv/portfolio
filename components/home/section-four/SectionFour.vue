@@ -43,6 +43,7 @@
 
 <style lang="scss" scoped>
   .section-four__container {
+    padding: 0 2.25rem;
     .section-four__title {
       color: #403886;
       font-size: 2.25rem;
@@ -62,6 +63,7 @@
 
   @media (max-width: 36.875rem) {
     .section-four__container {
+      padding: 0 1rem;
       .section-four__title {
         font-size: 1.5rem;
         margin-bottom: 5rem;

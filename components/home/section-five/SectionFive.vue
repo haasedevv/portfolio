@@ -83,9 +83,23 @@
 
   @media (max-width: 36.875rem) {
     .section-five__container {
+      padding: 0 1rem;
       .section-five__title {
         font-size: 1.5rem;
         margin-bottom: 5rem;
+      }
+
+      .section-five__experiences {
+        .section-five__experience {
+          .section-five__experience-division {
+            height: 48px;
+            width: 8px;
+            border-radius: 20px;
+            background: $color-secondary;
+            user-select: none;
+            margin: 1rem auto;
+          }
+        }
       }
     }
   }

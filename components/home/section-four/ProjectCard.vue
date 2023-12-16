@@ -59,7 +59,6 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding: 0 36px;
 
     .section-four__project-card-photo {
       max-width: 100%;

@@ -99,6 +99,7 @@
 
   @media (max-width: 48rem) {
     .section-two__container {
+      padding: 1rem;
       .section-two__photo {
         display: none;
       }
@@ -125,7 +126,6 @@
       margin-top: 72px;
       display: flex;
       gap: 2.25rem;
-      padding: 0 2.25rem;
 
       .section-two__photo {
         width: 386px;
