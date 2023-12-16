@@ -40,21 +40,21 @@
 
 <style lang="scss" scoped>
   .section-two__container {
-    margin-top: 160px;
+    margin-top: 10rem;
     display: flex;
     gap: 2.25rem;
     padding: 0 2.25rem;
 
     .section-two__photo {
-      width: 386px;
-      height: 440px;
+      width: 24.125rem;
+      height: 27.5rem;
     }
 
     .section-two__article {
       .section-two__article-header {
         .section-two__article-header-title {
           color: #403886;
-          font-size: 32px;
+          font-size: 2rem;
           font-style: normal;
           font-weight: 700;
           line-height: normal;
@@ -68,20 +68,20 @@
         .section-two__article-about-me {
           width: 100%;
           color: #242938;
-          font-size: 16px;
+          font-size: 1rem;
           font-style: normal;
           font-weight: 500;
           line-height: normal;
 
           &:nth-child(2) {
-            padding: 16px 0;
+            padding: 1rem 0;
           }
         }
 
         .section-two__article-photo {
           margin-top: 1.5rem;
-          width: 386px;
-          height: 440px;
+          width: 24.125rem;
+          height: 27.5rem;
           display: none;
         }
       }
@@ -91,8 +91,8 @@
   @media (max-width: 64rem) {
     .section-two__container {
       .section-two__photo {
-        width: 270px;
-        height: 308px;
+        width: 16.875rem;
+        height: 19.25rem;
       }
     }
   }
@@ -123,20 +123,20 @@
 
   @media (max-width: 30.3125rem) {
     .section-two__container {
-      margin-top: 72px;
+      margin-top: 4.5rem;
       display: flex;
       gap: 2.25rem;
 
       .section-two__photo {
-        width: 386px;
-        height: 440px;
+        width: 24.125rem;
+        height: 27.5rem;
       }
 
       .section-two__article {
         .section-two__article-header {
           .section-two__article-header-title {
             color: #403886;
-            font-size: 24px;
+            font-size: 1.5rem;
             font-style: normal;
             font-weight: 700;
             line-height: normal;
@@ -149,13 +149,13 @@
           .section-two__article-about-me {
             width: 100%;
             color: #242938;
-            font-size: 12px;
+            font-size: 0.75rem;
             font-style: normal;
             font-weight: 500;
             line-height: normal;
 
             &:nth-child(2) {
-              padding: 16px 0;
+              padding: 1rem 0;
             }
           }
 

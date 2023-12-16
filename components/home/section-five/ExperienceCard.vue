@@ -63,7 +63,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      margin-top: 12px;
+      margin-top: 0.75rem;
 
       .experience-card__description,
       .experience-card__technologies {

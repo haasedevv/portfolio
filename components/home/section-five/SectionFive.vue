@@ -61,7 +61,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 550px;
+      max-width: 34.375rem;
       margin: 0 auto;
 
       .section-five__experience {
@@ -70,9 +70,9 @@
         flex-direction: column;
 
         .section-five__experience-division {
-          height: 48px;
-          width: 8px;
-          border-radius: 20px;
+          height: 3rem;
+          width: 0.5rem;
+          border-radius: 1.25rem;
           background: $color-secondary;
           user-select: none;
           margin: 1rem auto;
@@ -92,9 +92,9 @@
       .section-five__experiences {
         .section-five__experience {
           .section-five__experience-division {
-            height: 48px;
-            width: 8px;
-            border-radius: 20px;
+            height: 3rem;
+            width: 0.5rem;
+            border-radius: 1.25rem;
             background: $color-secondary;
             user-select: none;
             margin: 1rem auto;

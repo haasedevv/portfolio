@@ -23,7 +23,7 @@
     gap: 7.75rem;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 48rem) {
     .home-page__container {
       gap: 6.25rem;
     }

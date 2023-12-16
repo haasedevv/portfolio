@@ -22,7 +22,7 @@
     border-radius: 0.375rem;
     cursor: pointer;
     transition: all 0.6s ease;
-    border: 3px solid transparent;
+    border: 0.1875rem solid transparent;
 
     &.--full {
       display: flex;
