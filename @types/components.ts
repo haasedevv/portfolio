@@ -16,3 +16,18 @@ export type NavMenuLinksNavbarProps = {
 export type StackiconComponentProps = {
   tecName: string;
 };
+
+export type AppInputProps = {
+  label?: string;
+  inputType?: string;
+  inputName?: string;
+  inputPlaceholder?: string;
+  isTextArea?: boolean;
+  hasError?: boolean;
+  feedback?: string;
+  modelValue: string;
+};
+
+export type InputEmitsProps = {
+  (e: "update:modelValue", value: HTMLInputElement["value"]): HTMLInputElement["value"];
+};
