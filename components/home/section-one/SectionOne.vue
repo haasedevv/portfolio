@@ -13,7 +13,7 @@
         </header>
       </article>
       <app-button
-        button-type="secondary"
+        button-style="secondary"
         class="section-one__download-cv-button"
       >
         Baixar CV

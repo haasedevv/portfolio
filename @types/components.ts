@@ -1,5 +1,5 @@
 export type AppButtonProps = {
-  buttonType: "black" | "secondary" | "white";
+  buttonStyle: "black" | "secondary" | "white";
   full?: boolean;
 };
 

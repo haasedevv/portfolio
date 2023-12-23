@@ -1,5 +1,5 @@
 <template>
-  <button :class="[`app-button__container --button-${buttonType || 'black'}-color`, { '--full': full }]">
+  <button :class="[`app-button__container --button-${buttonStyle || 'black'}-color`, { '--full': full }]">
     <slot />
   </button>
 </template>
@@ -7,7 +7,7 @@
 <script lang="ts" setup>
   import type { AppButtonProps } from "~/@types/components";
 
-  const { buttonType, full } = defineProps<AppButtonProps>();
+  const { buttonStyle, full } = defineProps<AppButtonProps>();
 </script>
 
 <style lang="scss" scoped>

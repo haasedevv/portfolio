@@ -20,7 +20,7 @@
 
       <form class="section-six__form">
         <app-button
-          button-type="black"
+          button-style="black"
           full
         >
           Enviar mensagem
