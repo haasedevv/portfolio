@@ -1,30 +1,30 @@
 <template>
-  <div :class="['app-input__container', { '--error': hasError }]">
+  <div :class="['app-input__container', { '--error': props.hasError }]">
     <label
-      v-if="!!label"
+      v-if="!!props.label"
       class="app-input__label"
     >
-      {{ label }}
+      {{ props.label }}
     </label>
 
     <input
-      v-if="!isTextArea"
+      v-if="!props.isTextArea"
       class="app-input__input"
-      :type="inputType || 'text'"
-      :name="inputName"
-      :placeholder="inputPlaceholder"
-      :value="modelValue"
+      :type="props.inputType || 'text'"
+      :name="props.inputName"
+      :placeholder="props.inputPlaceholder"
+      :value="localValue"
       @input="updateInputValue"
     />
 
     <textarea
-      v-if="isTextArea"
+      v-if="props.isTextArea"
       class="app-input__input-text-area"
-      :type="inputType || 'text'"
-      :name="inputName"
-      :placeholder="inputPlaceholder"
-      :value="modelValue"
+      :type="props.inputType || 'text'"
+      :name="props.inputName"
+      :placeholder="props.inputPlaceholder"
       rows="5"
+      :value="localValue"
       @input="updateInputValue"
     />
 
@@ -40,14 +40,46 @@
 <script lang="ts" setup>
   import type { AppInputProps, InputEmitsProps } from "@/@types/components";
 
-  const { label, inputType, inputName, inputPlaceholder, isTextArea, hasError, feedback, modelValue } =
-    defineProps<AppInputProps>();
-
+  const props = defineProps<AppInputProps>();
   const emit = defineEmits<InputEmitsProps>();
 
+  const localValue = ref(
+    props.mask === "general"
+      ? masksOptions.general(props.modelValue, props?.formatMask || "")
+      : props.mask
+        ? masksOptions[props.mask](props.modelValue)
+        : ""
+  );
+
   const updateInputValue = (e: Event) => {
+    localValue.value = (e.target as HTMLInputElement).value;
     emit("update:modelValue", (e.target as HTMLInputElement).value);
   };
+
+  watch(localValue, (value) => {
+    const formattedValue =
+      props.mask === "general"
+        ? masksOptions.general(value, props?.formatMask || "")
+        : props.mask
+          ? masksOptions[props.mask](value)
+          : value;
+    localValue.value = formattedValue;
+    emit("update:modelValue", formattedValue);
+  });
+
+  watch(
+    () => props.modelValue,
+    (value: string) => {
+      if (props.modelValue !== localValue.value) {
+        localValue.value =
+          props.mask === "general"
+            ? masksOptions.general(value, props?.formatMask || "")
+            : props.mask
+              ? masksOptions[props.mask](value)
+              : value;
+      }
+    }
+  );
 </script>
 
 <style lang="scss" scoped>

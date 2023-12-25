@@ -26,6 +26,8 @@ export type AppInputProps = {
   hasError?: boolean;
   feedback?: string;
   modelValue: string;
+  mask?: "general" | "telephone";
+  formatMask?: string;
 };
 
 export type InputEmitsProps = {
