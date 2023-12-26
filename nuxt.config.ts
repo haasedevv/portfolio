@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      apiBase: "/api"
+      serviceId: "",
+      templateId: "",
+      publicKey: ""
     }
   },
   svgo: {
