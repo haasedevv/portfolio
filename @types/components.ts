@@ -1,6 +1,7 @@
 export type AppButtonProps = {
-  buttonType: "black" | "secondary" | "white";
+  buttonStyle: "black" | "secondary" | "white";
   full?: boolean;
+  loading?: boolean;
 };
 
 export type SectionOneNavLinksProps = {
@@ -15,4 +16,21 @@ export type NavMenuLinksNavbarProps = {
 
 export type StackiconComponentProps = {
   tecName: string;
+};
+
+export type AppInputProps = {
+  label?: string;
+  inputType?: string;
+  inputName?: string;
+  inputPlaceholder?: string;
+  isTextArea?: boolean;
+  hasError?: boolean;
+  feedback?: string;
+  modelValue: string;
+  mask?: "general" | "telephone";
+  formatMask?: string;
+};
+
+export type InputEmitsProps = {
+  (e: "update:modelValue", value: HTMLInputElement["value"]): HTMLInputElement["value"];
 };

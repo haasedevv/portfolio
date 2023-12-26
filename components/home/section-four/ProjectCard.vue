@@ -21,7 +21,7 @@
             target="_blank"
           >
             <app-button
-              button-type="black"
+              button-style="black"
               full
             >
               Acessar Projeto
@@ -33,7 +33,7 @@
             target="_blank"
           >
             <app-button
-              button-type="secondary"
+              button-style="secondary"
               full
             >
               Acessar Repositório
