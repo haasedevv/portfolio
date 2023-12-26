@@ -1,6 +1,7 @@
 export type AppButtonProps = {
   buttonStyle: "black" | "secondary" | "white";
   full?: boolean;
+  loading?: boolean;
 };
 
 export type SectionOneNavLinksProps = {
