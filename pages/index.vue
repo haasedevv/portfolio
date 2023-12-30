@@ -6,10 +6,13 @@
     <section-four />
     <section-five />
     <section-six />
+    <back-to-top-button />
   </main>
 </template>
 
 <script lang="ts" setup>
+  import BackToTopButton from "~/components/BackToTopButton.vue";
+
   definePageMeta({
     layout: "layout-default"
   });
