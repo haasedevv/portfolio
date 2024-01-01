@@ -26,17 +26,10 @@
       projectImage: "/project1.png",
       imageAlt: "Teste Teste Teste",
       projectTitle: "Meu portfólio",
-      projectDescription: "teste teste teste",
+      projectDescription:
+        "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript por conta do SEO e pela praticidade que é trabalhar com importações e plugins neste.",
       projectUrl: "http://google.com.br",
-      repositoryUrl: "http://google.com.br"
-    },
-    {
-      projectImage: "/project1.png",
-      imageAlt: "Teste Teste Teste",
-      projectTitle: "Meu portfólio",
-      projectDescription: "teste teste teste",
-      projectUrl: "http://google.com.br",
-      repositoryUrl: "http://google.com.br"
+      repositoryUrl: "https://github.com/haasedevv/portfolio/tree/release/v1.0.0"
     }
   ]);
 </script>
