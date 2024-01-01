@@ -25,19 +25,21 @@
   const experiences = ref([
     {
       company: "Code n'App",
-      role: "Desenvolvedor Front-end Treinee",
-      companyTime: "3 meses (O momento)",
+      role: "Desenvolvedor Front-end",
+      companyTime: "4 meses (O momento)",
       description:
-        "Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee",
-      technologies: "Vue, React"
+        "Atualmente participo do desenvolvimento de um novo sistema de soluções de crédito. Estou desenvolvendo novas telas e atuando em correções de bugs. Além disso, auxilio outros membros de equipe e levanto questionamentos após a leitura das especificações técnicas, buscando melhor resultado para o produto final.",
+      technologies:
+        "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, React, Zustand, Hooks, SASS, Webpack, Vite, API RESTful, Azure Devops"
     },
     {
       company: "Code n'App",
       role: "Estagiário em Desenvolvimento Front-end",
       companyTime: "1 ano e 2 meses",
       description:
-        "Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee Desenvolvedor Front-end Treinee",
-      technologies: "Vue, React"
+        "Atuação como estagiário agregando valor aos 3 projetos que participei a partir de desenvolvimento e correções de bugs utilizando Vue.js e React.js. O principal projeto que participei foi o da indsiders.<br/>Atuei no desenvolvimento dos produtos internos para auxiliar as fábricas a mapeaream a alocação de seus recursos, visando reduzir custos e melhorar a capacidade de produção.",
+      technologies:
+        "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, Hooks, SASS, Webpack, Vite, API RESTful, Azure Devops"
     }
   ]);
 </script>
