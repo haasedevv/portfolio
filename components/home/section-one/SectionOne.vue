@@ -12,12 +12,17 @@
           </div>
         </header>
       </article>
-      <app-button
-        button-style="secondary"
-        class="section-one__download-cv-button"
+      <a
+        href="/cv.pdf"
+        download="joseph_haase_cv.pdf"
       >
-        Baixar CV
-      </app-button>
+        <app-button
+          button-style="secondary"
+          class="section-one__download-cv-button"
+        >
+          Baixar CV
+        </app-button>
+      </a>
       <external-links-nav
         direction="row"
         class="section-one__content-nav-center"
