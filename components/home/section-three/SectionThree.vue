@@ -1,6 +1,6 @@
 <template>
   <section
-    id="#sobre"
+    id="tecnologias"
     class="section-three__container"
   >
     <div class="section-three__vector" />
