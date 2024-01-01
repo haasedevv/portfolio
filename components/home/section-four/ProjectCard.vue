@@ -62,7 +62,7 @@
 <style lang="scss" scoped>
   .section-four__project-card {
     width: 100%;
-    max-width: 37.5rem;
+    max-width: 43.75rem;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
