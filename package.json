@@ -22,6 +22,7 @@
     "eslint": "^8.54.0",
     "nuxt": "^3.8.1",
     "nuxt-lucide-icons": "^1.0.3",
+    "nuxt-svgo": "^3.6.0",
     "pinia": "^2.1.7",
     "prettier": "^3.1.0",
     "sass": "^1.69.5",
@@ -29,5 +30,8 @@
     "vue": "^3.3.8",
     "vue-router": "^4.2.5",
     "vue-tsc": "^1.8.22"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0"
   }
 }
