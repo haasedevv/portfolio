@@ -78,7 +78,7 @@
 </template>
 
 <script lang="ts" setup>
-  import emailjs from "../../../node_modules/@emailjs/browser";
+  import { send } from "../../../node_modules/@emailjs/browser";
 
   const fields = ref({
     name: "",
@@ -212,12 +212,10 @@
     };
 
     loading.value = true;
-    emailjs
-      .send(config.public.serviceId, config.public.templateId, templateParams, config.public.publicKey)
+    send(config.public.serviceId, config.public.templateId, templateParams, config.public.publicKey)
       .then(() => {
         clearFields();
       })
-      .catch((e) => console.error(e))
       .finally(() => (loading.value = false));
   };
 </script>
