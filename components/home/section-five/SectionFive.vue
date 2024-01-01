@@ -37,7 +37,7 @@
       role: "Estagiário em Desenvolvimento Front-end",
       companyTime: "1 ano e 2 meses",
       description:
-        "Atuação como estagiário agregando valor aos 3 projetos que participei a partir de desenvolvimento e correções de bugs utilizando Vue.js e React.js. O principal projeto que participei foi o da indsiders.<br/>Atuei no desenvolvimento dos produtos internos para auxiliar as fábricas a mapeaream a alocação de seus recursos, visando reduzir custos e melhorar a capacidade de produção.",
+        "Atuação como estagiário agregando valor aos 3 projetos que participei a partir de desenvolvimento e correções de bugs utilizando Vue.js e React.js. O principal projeto que participei foi o da empreda Indsiders.<br/>Atuei no desenvolvimento dos produtos internos para auxiliar as fábricas a mapeaream a alocação de seus recursos, visando reduzir custos e melhorar a capacidade de produção.",
       technologies:
         "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, Hooks, SASS, Webpack, Vite, API RESTful, Azure Devops"
     }
