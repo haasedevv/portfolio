@@ -29,6 +29,7 @@
 
 <script lang="ts" setup>
   import ZustandIcon from "@/assets/icons/ZustandIcon.svg?component";
+  import JavascriptIcon from "@/assets/icons/JavaScriptIcon.svg?component";
   import AzureIcon from "@/assets/icons/AzureIcon.svg?component";
   import DockerIcon from "@/assets/icons/DockerIcon.svg?component";
   import FigmaIcon from "@/assets/icons/FigmaIcon.svg?component";
@@ -60,6 +61,10 @@
     {
       icon: CssIcon,
       name: "CSS"
+    },
+    {
+      icon: JavascriptIcon,
+      name: "JavsScript"
     },
     {
       icon: TypescriptIcon,
