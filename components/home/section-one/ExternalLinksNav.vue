@@ -3,7 +3,7 @@
     <ul :class="`--${direction || 'column'}`">
       <li>
         <a
-          href="https://github.com/HJosephDEV?tab=repositories"
+          href="https://github.com/haasedevv?tab=repositories"
           target="_blank"
         >
           <IconGithub />
