@@ -24,7 +24,7 @@
   const projectsList = ref([
     {
       projectImage: "/project1.png",
-      imageAlt: "Teste Teste Teste",
+      imageAlt: "Imagem do meu portfólio",
       projectTitle: "Meu portfólio",
       projectDescription:
         "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript por conta do SEO e pela praticidade que é trabalhar com importações e plugins neste.",

@@ -63,7 +63,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      max-width: 34.375rem;
+      max-width: 50rem;
       margin: 0 auto;
 
       .section-five__experience {
