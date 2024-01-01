@@ -1,17 +1,22 @@
 export default defineNuxtConfig({
-  modules: ["@pinia/nuxt", "@nuxtjs/eslint-module", "@nuxtjs/google-fonts", "nuxt-lucide-icons"],
+  modules: ["@pinia/nuxt", "@nuxtjs/eslint-module", "@nuxtjs/google-fonts", "nuxt-lucide-icons", "nuxt-svgo"],
   devtools: { enabled: true },
   runtimeConfig: {
     public: {
-      apiBase: "/api"
+      serviceId: "",
+      templateId: "",
+      publicKey: ""
     }
+  },
+  svgo: {
+    global: false
   },
   lucide: {
     namePrefix: "Icon"
   },
   googleFonts: {
     families: {
-      Roboto: [300, 400, 500]
+      Poppins: [500, 700]
     }
   },
   components: [
