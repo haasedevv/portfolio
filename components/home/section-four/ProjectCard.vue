@@ -11,8 +11,13 @@
         <h1 class="section-four__article-project-title">{{ projectTitle }}</h1>
       </header>
       <section class="section-four__article-section">
-        <p class="section-four__article-project-description">
-          {{ projectDescription }}
+        <p
+          v-for="(part, index) in splitedDescription"
+          :key="`part-${index}`"
+          class="section-four__article-project-description"
+        >
+          {{ part }}
+          <br v-if="splitedDescription.length > 1 && index !== splitedDescription.length - 1" />
         </p>
 
         <div class="section-four__article-buttons-container">
@@ -50,6 +55,8 @@
 
   const { projectImage, imageAlt, projectTitle, projectDescription, projectUrl, repositoryUrl } =
     defineProps<ProjectCardComponentProps>();
+
+  const splitedDescription = ref(projectDescription.split("<br/>"));
 </script>
 
 <style lang="scss" scoped>

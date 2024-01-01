@@ -3,7 +3,7 @@
     <ul :class="`--${direction || 'column'}`">
       <li>
         <a
-          href="https://github.com/HJosephDEV?tab=repositories"
+          href="https://github.com/haasedevv?tab=repositories"
           target="_blank"
         >
           <IconGithub />
@@ -42,6 +42,7 @@
 
       &.--column {
         flex-direction: column;
+        animation: navLinkColumnAnimation 1s ease;
       }
 
       li {
@@ -57,6 +58,17 @@
             color: $color-secondary;
           }
         }
+      }
+    }
+
+    @keyframes navLinkColumnAnimation {
+      0% {
+        opacity: 0;
+        transform: translateX(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
       }
     }
 

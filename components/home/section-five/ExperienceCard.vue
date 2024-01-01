@@ -6,8 +6,13 @@
       <h3 class="experience-card__experience-time">{{ experience.companyTime }}</h3>
     </header>
     <section class="experience-card__article-section">
-      <p class="experience-card__description">
-        {{ experience.description }}
+      <p
+        v-for="(part, index) in splitedDescription"
+        :key="`part-${index}`"
+        class="experience-card__description"
+      >
+        {{ part }}
+        <br v-if="splitedDescription.length > 1 && index !== splitedDescription.length - 1" />
       </p>
       <p class="experience-card__technologies">
         Tecnologias: <span>{{ experience.technologies }}</span>
@@ -20,6 +25,7 @@
   import type { ExperienceCardComponentProps } from "~/@types/Sections/SectionFive";
 
   const { experience } = defineProps<ExperienceCardComponentProps>();
+  const splitedDescription = ref(experience.description.split("<br/>"));
 </script>
 
 <style lang="scss" scoped>

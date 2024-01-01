@@ -31,7 +31,7 @@
           alt="Joseph Haase Desenvolvedor Vue.js React.js"
         />
       </section>
-      <app-button button-style="black">Visualizar CV</app-button>
+      <app-button button-style="black">Baixar CV</app-button>
     </article>
   </section>
 </template>
