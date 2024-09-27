@@ -24,10 +24,37 @@
   const projectsList = ref([
     {
       projectImage: "/project1.png",
+      imageAlt: "Imagem da plataforma de estudos gamificada",
+      projectTitle: "Plataforma de estudos de javascript gamificada",
+      projectDescription:
+        "Plataforma de estudos gamificada desenvolvida para ajudar estudantes a se manterem motivados e focados nos estudos. <br/> O projeto foi desenvolvido em Vue com TypeScript e Node.js.",
+      projectUrl: "https://gamified-study-platform.vercel.app",
+      repositoryUrl: "https://github.com/haasedevv/gamified-study-platform"
+    },
+    {
+      projectImage: "/project2.png",
+      imageAlt: "Imagem da tela de login",
+      projectTitle: "Tela de login com internacionalização",
+      projectDescription:
+        "Tela de login com internacionalização voltada para estudos. <br/> O projeto foi desenvolvido em Next.js com TypeScript.",
+      projectUrl: "https://form-next-js-sage.vercel.app",
+      repositoryUrl: "https://github.com/haasedevv/form-next-js"
+    },
+    {
+      projectImage: "/project3.png",
+      imageAlt: "Imagem da lista de imagens",
+      projectTitle: "Integração com a API do Rick and Morty",
+      projectDescription:
+        "Projeto desenvolvido com intuito de estudar a integração com APIs. <br/> O projeto foi desenvolvido em Next.js com TypeScript e a API pública do Rick and Morty.",
+      projectUrl: "https://rick-and-morty-hjosephdev.vercel.app",
+      repositoryUrl: "https://github.com/haasedevv/rick-and-morty"
+    },
+    {
+      projectImage: "/project4.png",
       imageAlt: "Imagem do meu portfólio",
       projectTitle: "Meu portfólio",
       projectDescription:
-        "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript por conta do SEO e pela praticidade que é trabalhar com importações e plugins neste.",
+        "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript.",
       projectUrl: "https://portfolio-hjosephdev.vercel.app/",
       repositoryUrl: "https://github.com/haasedevv/portfolio/tree/release/v1.0.0"
     }

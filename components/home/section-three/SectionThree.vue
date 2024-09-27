@@ -52,6 +52,7 @@
   import TypescriptIcon from "@/assets/icons/TypescriptIcon.svg?component";
   import VueIcon from "@/assets/icons/VueIcon.svg?component";
   import VuexIcon from "@/assets/icons/VuexIcon.svg?component";
+  import PythonIcon from "@/assets/icons/PythonIcon.svg?component";
 
   const iconsList = shallowRef([
     {
@@ -121,6 +122,10 @@
     {
       icon: NestIcon,
       name: "Nest.js"
+    },
+    {
+      icon: PythonIcon,
+      name: "Python"
     },
     {
       icon: PostgresqlIcon,

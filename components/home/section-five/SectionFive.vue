@@ -25,19 +25,22 @@
   const experiences = ref([
     {
       company: "Code n'App",
-      role: "Desenvolvedor Front-end",
-      companyTime: "4 meses (O momento)",
-      description:
-        "Atualmente participo do desenvolvimento de um novo sistema de soluções de crédito. Estou desenvolvendo novas telas e atuando em correções de bugs. Além disso, auxilio outros membros de equipe e levanto questionamentos após a leitura das especificações técnicas, buscando melhor resultado para o produto final.",
+      role: "Desenvolvedor Full Stack",
+      companyTime: "1 ano (O momento)",
+      description: `
+        Trabalho no desenvolvimento de aplicações, incluindo sistema de gestão de recursos de chão de fábrica, sistema de faturamento e sistema de crédito pessoal. Além do desenvolvimento, atuo com correções de bugs e possuo flexibilidade para atuar em outros projetos sempre que necessário, suprindo faltas ou demandas adicionais. Faço o refinamento de novas funcionalidades, criando tarefas com estimativas de horas para a equipe, e colaboro com o Product Owner (PO) quando, durante o refinamento, são encontradas falhas, apontando possíveis problemas e soluções.<br/>
+        Participo de dailys para reportar o andamento dos projetos e alinhar prazos com a equipe, garantindo que todos estejam na mesma página. Também sou um dos responsáveis pelas pull requests das equipes da fábrica, onde avalio as boas práticas para elevar o nível das entregas e compartilhar conhecimentos com meus colegas. Meu foco é não só entregar funcionalidades de qualidade, mas também contribuir para o crescimento e a eficiência da equipe.<br/>
+        Atualmente também atuo no desenvolvimento de um Design System interno, onde buscamos melhorar a forma do desenvolvimento dos projetos. Em meio a esse desenvolvimento, passei por grandes desafios e aprendi bastante coisas que nunca tinha visto antes, então foi uma das melhores experiêcias de codificação que tive por conta dos aprendizados.`,
       technologies:
-        "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, React, Zustand, Hooks, SASS, Webpack, Vite, API RESTful, Azure Devops"
+        "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, React, Zustand, Hooks, Next.js, API, Node.js, PostgreSQL, SASS, Webpack, Vite, API RESTful, Azure Devops"
     },
     {
       company: "Code n'App",
       role: "Estagiário em Desenvolvimento Front-end",
       companyTime: "1 ano e 2 meses",
-      description:
-        "Atuação como estagiário agregando valor aos 3 projetos que participei a partir de desenvolvimento e correções de bugs utilizando Vue.js e React.js. O principal projeto que participei foi o da empreda Indsiders.<br/>Atuei no desenvolvimento dos produtos internos para auxiliar as fábricas a mapeaream a alocação de seus recursos, visando reduzir custos e melhorar a capacidade de produção.",
+      description: `Atuação como estagiário agregando valor aos 3 projetos que participei a partir de desenvolvimento e correções de bugs utilizando Vue.js e React.js. O principal projeto que participei foi o da empresa Indsiders.<br/>
+        Atuei no desenvolvimento dos produtos internos para auxiliar as fábricas a mapearem a alocação de seus recursos, visando reduzir custos e melhorar a capacidade de produção.<br/>
+        Referência: https://indsiders.com/`,
       technologies:
         "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, Hooks, SASS, Webpack, Vite, API RESTful, Azure Devops"
     }

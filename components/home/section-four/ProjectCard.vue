@@ -22,7 +22,7 @@
 
         <div class="section-four__article-buttons-container">
           <NuxtLink
-            :to="projectUrl"
+            :href="projectUrl"
             target="_blank"
           >
             <app-button
@@ -34,7 +34,7 @@
           </NuxtLink>
 
           <NuxtLink
-            :to="repositoryUrl"
+            :href="repositoryUrl"
             target="_blank"
           >
             <app-button

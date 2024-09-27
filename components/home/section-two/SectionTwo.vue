@@ -16,15 +16,20 @@
       <section class="section-two__article-section">
         <p class="section-two__article-about-me">Olá, meu nome é Joseph!</p>
         <p class="section-two__article-about-me">
-          Sou desenvolvedor front-end focado no ecossistema Vue, utilizando as tecnologias Vue.js e Nuxt.js. Com mais de
-          1 ano e meio de experiência no mercado, tornei-me especialista no desenvolvimento de interfaces responsivas e
-          interativas.
+          Sou desenvolvedor full stack com foco em tecnologias como Vue, React e Node.js, utilizando TypeScript e
+          JavaScript. Tenho 2 anos de experiência na área de tecnologia, trabalhando no desenvolvimento de aplicações
+          web, desde a criação de interfaces até a implementação de APIs, onde viso aplicar as melhores práticas e as
+          melhores arquiteturas. Resumidamente, sou a pessoa que vai solucionar os seus problemas!
         </p>
+
         <p class="section-two__article-about-me">
-          Ao longo da minha trajetória, também desenvolvi aplicações utilizando React, Next e Node. Com isso, sou uma
-          pessoa versátil para diversos projetos, pois adquiri conhecimentos em diferentes tecnologias. Meu objetivo é
-          me especializar cada vez mais!
+          Atualmente, participo do desenvolvimento de sistemas como gestão de recursos de chão de fábrica, faturamento e
+          crédito pessoal, onde além de implementar novas funcionalidades, realizo ajustes e correções em sistemas
+          existentes. Também sou flexível para atuar em diferentes projetos conforme necessário, suprindo demandas
+          adicionais. Tenho experiência em SEO, otimizando aplicações para melhorar sua visibilidade nos mecanismos de
+          busca.
         </p>
+
         <img
           class="section-two__article-photo"
           src="/me-about.png"

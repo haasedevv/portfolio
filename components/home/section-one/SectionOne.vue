@@ -4,7 +4,7 @@
       <me-icon class="section-one__me-icon" />
       <article class="section-one__article-titles">
         <header>
-          <h1>Desenvolvedor Front end</h1>
+          <h1>Desenvolvedor Full Stack</h1>
           <h2>Joseph Haase</h2>
           <div class="section-one__article-github-link">
             <span><IconGithub /></span>

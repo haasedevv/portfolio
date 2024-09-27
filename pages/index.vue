@@ -18,8 +18,8 @@
   });
 
   useSeoMeta({
-    title: "Desenvolvedor Front end - Joseph Haase",
-    ogTitle: "Desenvolvedor Front end - Joseph Haase",
+    title: "Desenvolvedor Full Stack - Joseph Haase",
+    ogTitle: "Desenvolvedor Full Stack - Joseph Haase",
     description:
       "Sou desenvolvedor front-end com foco em Vue e React, utilizando Typescript, e " +
       "tenho 1 ano e 6 meses de experiência na área de tecnologia. Trabalho com desenvolvimento web, " +

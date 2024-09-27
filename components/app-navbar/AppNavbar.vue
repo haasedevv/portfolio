@@ -13,9 +13,9 @@
         ref="devAnimationFrontEnd"
         class="app-navbar__dev-animation-front-end"
       >
-        <span class="app-navbar__dev-animation-span">Front end</span>
-        <span class="app-navbar__dev-animation-span">Front end</span>
-        <span class="app-navbar__dev-animation-span">Front end</span>
+        <span class="app-navbar__dev-animation-span">Full Stack</span>
+        <span class="app-navbar__dev-animation-span">Full Stack</span>
+        <span class="app-navbar__dev-animation-span">Full Stack</span>
       </div>
     </div>
     <div class="app-navbar__right-content">
