@@ -56,7 +56,7 @@
       projectDescription:
         "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript.",
       projectUrl: "https://portfolio-hjosephdevs-projects.vercel.app",
-      repositoryUrl: "https://github.com/haasedevv/portfolio/tree/release/v1.0.0"
+      repositoryUrl: "https://github.com/haasedevv/portfolio"
     }
   ]);
 </script>
