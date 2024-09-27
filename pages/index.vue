@@ -21,13 +21,13 @@
     title: "Desenvolvedor Full Stack - Joseph Haase",
     ogTitle: "Desenvolvedor Full Stack - Joseph Haase",
     description:
-      "Sou desenvolvedor front-end com foco em Vue e React, utilizando Typescript, e " +
-      "tenho 1 ano e 6 meses de experiência na área de tecnologia. Trabalho com desenvolvimento web, " +
+      "Sou desenvolvedor full stack com foco em Vue e React, utilizando Typescript, e " +
+      "tenho 2 anos de experiência na área de tecnologia. Trabalho com desenvolvimento web, " +
       "criando novos projetos e realizando ajustes e correções de bugs em funcionalidades de projetos já existentes, " +
       "sempre priorizando a usabilidade e a experiência do usuário.",
     ogDescription:
-      "Sou desenvolvedor front-end com foco em Vue e React, utilizando Typescript, e " +
-      "tenho 1 ano e 6 meses de experiência na área de tecnologia. Trabalho com desenvolvimento web, " +
+      "Sou desenvolvedor full stack com foco em Vue e React, utilizando Typescript, e " +
+      "tenho 2 anos de experiência na área de tecnologia. Trabalho com desenvolvimento web, " +
       "criando novos projetos e realizando ajustes e correções de bugs em funcionalidades de projetos já existentes, " +
       "sempre priorizando a usabilidade e a experiência do usuário."
   });
