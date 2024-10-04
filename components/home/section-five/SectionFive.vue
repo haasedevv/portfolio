@@ -28,7 +28,7 @@
       role: "Desenvolvedor Full Stack",
       companyTime: "1 ano e 1 mês (O momento)",
       description: `
-        Trabalho no desenvolvimento de aplicações, incluindo sistema de gestão de recursos de chão de fábrica e sistema de crédito pessoal. Além do desenvolvimento, atuo com correções de bugs e possuo flexibilidade para atuar em outros projetos sempre que necessário. Adquiri habilidade com refinamento de novas funcionalidades, criando tarefas com estimativas de horas para a equipe, e colababorando com o Product Owner (PO) com olhar crítico sobre novas funcionalidades.<br/>
+        Trabalho no desenvolvimento de aplicações, incluindo sistema de gestão de recursos de chão de fábrica e sistema de crédito pessoal. Além do desenvolvimento, atuo com correções de bugs e possuo flexibilidade para atuar em outros projetos sempre que necessário. Adquiri habilidade com refinamento de novas funcionalidades, criando tarefas com estimativas de horas para a equipe, e colaborando com o Product Owner (PO) com olhar crítico sobre novas funcionalidades.<br/>
 Participo de dailys para reportar o andamento dos projetos e alinhar prazos com a equipe, garantindo que todos estejam na mesma página. Também faço revisão de pull requests, onde avalio as boas práticas para elevar o nível das entregas e compartilhar conhecimentos com meus colegas. Meu foco é não só entregar funcionalidades de qualidade, mas também contribuir para o crescimento e a eficiência da equipe.`,
       technologies:
         "HTML, CSS, JavaScript, TypeScript, Vue, Vuex, React, Zustand, Hooks, Next.js, API, Node.js, PostgreSQL, SASS, Webpack, Vite, API RESTful, Azure Devops"
