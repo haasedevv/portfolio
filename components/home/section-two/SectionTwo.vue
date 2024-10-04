@@ -17,7 +17,7 @@
         <p class="section-two__article-about-me">Olá, meu nome é Joseph!</p>
         <p class="section-two__article-about-me">
           Sou desenvolvedor full stack com foco em tecnologias como Vue, React e Node.js, utilizando TypeScript e
-          JavaScript. Tenho 2 anos de experiência na área de tecnologia, trabalhando no desenvolvimento de aplicações
+          JavaScript. Tenho 3 anos de experiência na área de tecnologia, trabalhando no desenvolvimento de aplicações
           web, desde a criação de interfaces até a implementação de APIs, onde viso aplicar as melhores práticas e as
           melhores arquiteturas. Resumidamente, sou a pessoa que vai solucionar os seus problemas!
         </p>
