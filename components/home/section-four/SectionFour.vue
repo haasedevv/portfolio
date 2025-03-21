@@ -48,15 +48,6 @@
         "Projeto desenvolvido com intuito de estudar a integração com APIs. <br/> O projeto foi desenvolvido em Next.js com TypeScript e a API pública do Rick and Morty.",
       projectUrl: "https://rick-and-morty-hjosephdev.vercel.app",
       repositoryUrl: "https://github.com/haasedevv/rick-and-morty"
-    },
-    {
-      projectImage: "/project4.png",
-      imageAlt: "Imagem do meu portfólio",
-      projectTitle: "Meu portfólio",
-      projectDescription:
-        "Este portfólio foi desenvolvimento para falar um pouco sobre minhas experiências e mostrar os projetos que já realizei.<br/> O projeto foi desenvolvido em Nuxt com TypeScript.",
-      projectUrl: "https://portfolio-hjosephdevs-projects.vercel.app",
-      repositoryUrl: "https://github.com/haasedevv/portfolio"
     }
   ]);
 </script>
